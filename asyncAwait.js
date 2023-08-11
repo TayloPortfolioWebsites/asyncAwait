@@ -1,3 +1,4 @@
+/*
 const posts =[
     {
         title: 'Post one is the first async await fulfilled',
@@ -23,7 +24,7 @@ function getPosts(){
        document.body.innerHTML = output;
     },1000); // end of setTimeout function 
 } // end of getPost() function
-
+*/
 /*
 function createPost(post, callback){
     setTimeout(()=>{
@@ -94,11 +95,13 @@ async function init(){
 init();
 */
 
+/*
 async function fetchUserData(){
-    const response = await fetch ('https://jsonplaceholder.typicode.com/users');
+    const response = await fetch('https://jsonplaceholder.typicode.com/users');
 
     const data = await response.json();
     console.log(data);
 }
 
 fetchUserData();
+*/
